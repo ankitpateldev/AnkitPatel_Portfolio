@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', Sans-Serif;
+}
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+.wrapper{
+    position: fixed;
+    height: 100%; width: 100%;
+    background: #36474F;
+    overflow-y: auto;
+}
+.code-container{
+    position: relative;
+    height: auto; width: 100%;
+    padding: 10px 0;
+    margin: 0 0 40px 0;
+}
+.code{
+    position: relative;
+    height: auto; width: 95%;
+    border: 0; padding: 10px;
+    border-radius: 2px;
+    font-size: 1.5em;
+    color: #39ff14;
+    background: #272727;
+    display: block;
+}
+.output-container{
+    position: relative;
+    height: auto; width: 100%;
+    margin: 0 0 50px 0;
+    color: transparent;
+}
